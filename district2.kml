@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>district2.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>District 02</name>
+		<description>ACC City Council District 002</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-83.3393320915476,33.92722970863473,0 -83.33423821272113,33.93206253626438,0 -83.32694314385499,33.93624998239844,0 -83.32291528410221,33.93970734304494,0 -83.3174077857697,33.93751599530206,0 -83.31390970359074,33.94028174427876,0 -83.31369176601397,33.94300541880977,0 -83.3053130617472,33.94810734238392,0 -83.30800796095184,33.95963452449673,0 -83.30242600241479,33.96787893697983,0 -83.31482697431008,33.9722244181125,0 -83.32663779559013,33.97504219716458,0 -83.33436392698783,33.97833174281478,0 -83.34257642031528,33.97888698052883,0 -83.34676816268778,33.98314079702143,0 -83.35213824529494,33.97852261520415,0 -83.36416172199705,33.97834839564908,0 -83.37081312859461,33.96693822265501,0 -83.3659746572158,33.9574757841016,0 -83.36758263334391,33.95563722814521,0 -83.35588266340186,33.94672139927168,0 -83.35049657595867,33.93772200151245,0 -83.3448977939875,33.9316789691724,0 -83.3393320915476,33.92722970863473,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>district9.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>District 9</name>
+		<description>ACC City Council District 9</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-83.29478771731007,34.00989753923421,0 -83.30817690624926,34.01802152740254,0 -83.32079449712973,34.02659928700071,0 -83.36107157529619,34.0386847833102,0 -83.36380173767469,34.02817240812395,0 -83.36892064475641,34.01983157802044,0 -83.36789176928687,34.01633525420898,0 -83.36453181210406,34.00556626531168,0 -83.36908755817787,34.00065346939017,0 -83.37418498264736,33.99932625757164,0 -83.37254141017708,33.9954197378643,0 -83.37685740399581,33.98681155060488,0 -83.37783364044252,33.97921827933986,0 -83.38828310560528,33.97590970347702,0 -83.38335081580107,33.96103456673703,0 -83.37730791551239,33.96215546045213,0 -83.37286652730518,33.96654364263971,0 -83.36855490751846,33.97043422763308,0 -83.36472502056941,33.97607211410674,0 -83.36360113051803,33.98011806226128,0 -83.35209538477751,33.97800176331405,0 -83.34758101720287,33.9833343074877,0 -83.34261649738279,33.97988928031884,0 -83.33326425211901,33.97844344513975,0 -83.32813571579374,33.97588872943575,0 -83.32072754113848,33.97476973916598,0 -83.31374363914699,33.97156031458253,0 -83.30831918763728,33.9786112919698,0 -83.30791831291187,33.98229889826625,0 -83.30455298486585,33.98656885369617,0 -83.30032559973344,33.98962635113634,0 -83.29457497716405,33.99414156473422,0 -83.29328834272343,33.99754375732454,0 -83.29092577610832,33.99954493094301,0 -83.28919551360383,34.00387142732093,0 -83.29220352249614,34.00687721629462,0 -83.29478771731007,34.00989753923421,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
